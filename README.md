@@ -16,7 +16,7 @@ El reto fue resuelto con html, css, bootstrap y sass de una forma sencilla.
 
 ### Links
 
-- URL del Sitio: [Sitio Web](https://danilovaron.github.io/Profile_card_bootstrap/)
+- URL del Sitio: [Sitio Web](https://danilovaron.github.io/3_Column_preview_card_bootstrap/)
 
 ## Proceso
 
