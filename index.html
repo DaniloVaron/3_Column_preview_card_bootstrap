@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | 3-column preview card component con bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/custom.css">
+
+  <!-- Mis estilos -->
+  <!-- <link rel="stylesheet" href="./css/prueba.css"> -->
+
+</head>
+
+<body class="bg-light d-flex flex-column justify-content-center align-items-center">
+
+  <!-- Contenedor -->
+  <section class="container my-3 mx-auto d-flex flex-column flex-lg-row justify-content-center align-items-center">
+
+    <!-- Tarjeta 1 -->
+    <article class="bg-primary card d-flex flex-column card-1-color">
+      <img src="./images/icon-sedans.svg" alt="icono_carro" class="mb-4 imagen">
+      <h2 class="text-light text-uppercase mb-4 titulo">Sedans</h2>
+      <p class="text-warning m-lg-0 texto">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+        or on your next road trip.
+      </p>
+      <button class="btn btn-light text-capitalize border-2 rounded-pill boton boton-text-1">learn
+        more</button>
+    </article>
+
+    <!-- Tarjeta 2 -->
+    <article class="bg-secondary card d-flex flex-column rounded-0 card-2-color">
+      <img src="./images/icon-suvs.svg" alt="icono_camioneta" class=" mb-4 imagen">
+      <h2 class="text-light text-uppercase mb-4 titulo">SUVs</h2>
+      <p class="text-warning m-lg-0 texto">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+        and off-road adventures.
+      </p>
+      <button class="btn btn-light text-capitalize border-2 rounded-pill boton boton-text-2">learn
+        more</button>
+    </article>
+
+    <!-- Tarjeta 3 -->
+    <article class="bg-info card d-flex flex-column card-3-color">
+      <img src="./images/icon-luxury.svg" alt="icono_deportivo" class=" mb-4 imagen">
+      <h2 class="text-light text-uppercase mb-4 titulo">Luxury</h2>
+      <p class="text-warning m-lg-0 texto">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+        rental and arrive in style.
+      </p>
+      <button class="btn btn-light text-capitalize border-2 rounded-pill boton boton-text-3">learn
+        more</button>
+    </article>
+  </section>
+
+  <div class="attribution">
+    Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Codificado por <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
+  </div>
+
+</body>
+
+</html>

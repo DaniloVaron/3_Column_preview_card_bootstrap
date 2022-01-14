@@ -1,0 +1,110 @@
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  min-height: 100vh;
+}
+
+/* Contenedor */
+.container {
+  width: 90%;
+}
+
+/* Tarjetas */
+.card {
+  padding: 32px;
+  width: 20%;
+}
+
+/* Responsive de 992px de las tarjetas */
+@media (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
+/* Responsive de 576px de las tarjetas */
+@media (max-width: 576px) {
+  .card {
+    width: 80%;
+  }
+}
+
+/* Tarjeta 1 */
+.card-1-color {
+  /* background: var(--Naranja_brillante); */
+  border-radius: 8px 0 0 8px;
+}
+
+/* Tarjeta 2 */
+/* .card-2-color {
+  background: var(--Cian_oscuro);
+} */
+
+/* Tarjeta 3 */
+.card-3-color {
+  /* background: var(--Cian_muy_oscuro); */
+  border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 992px) {
+  .card-1-color {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .card-3-color {
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+/* Imagenes */
+.imagen {
+  width: 50px;
+}
+
+/* Titulos de cada tarjeta */
+.titulo {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2.2em;
+  /* color: var(--Gris_claro); */
+}
+
+/* Texto de cada tarjeta */
+.texto {
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: var(--Blanco_transparente);
+  height: 180px;
+}
+
+@media (max-width: 992px) {
+  .texto {
+    height: 120px;
+  }
+}
+
+/* Boton de cada tarjeta */
+.boton {
+  font-size: 0.8em;
+  padding: 8px 25px;
+  width: 80%;
+  /* width: 66px; */
+  /* border-radius: 20px; */
+  /* background: var(--Gris_claro); */
+}
+
+/* Hover de los botones */
+.boton:hover {
+  background: transparent;
+  /* color: var(--Blanco_transparente); */
+  transition: 0.3s;
+}
+
+/* Otro */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
